@@ -2,6 +2,7 @@
   text-decoration: none !important ;
   text-transform: capitalize !important;
   list-style: none;
+  scroll-behavior: smooth;
 }
 header {
   background-color: #37517e;
@@ -307,6 +308,7 @@ header .container > span {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
+  text-align: center;
 }
 .card1 span i {
   color: #1994d6;
@@ -509,6 +511,17 @@ footer .name p {
   margin-top: 40px;
   font-size: 22px;
   font-family: "Josefin Sans", sans-serif;
+}
+.myname {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  display: inline-block;
+  margin-left: 5px;
+  transition: color 0.3s ease;
+}
+.myname:hover {
+  color: #47b2e4;
 }
 footer .name p span {
   color: red;
